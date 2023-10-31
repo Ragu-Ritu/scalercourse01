@@ -60,11 +60,9 @@ if(true)
 //2#
 
 const student = {'fname':'Ragu', 'age': 25};
-console.log('const');
 console.log(student);  //We can able to print the whole data present inside the varaible
 console.log(student.fname);  //We can able to print the required data present inside the variable
 student.fname = 'Ram';
-console.log('const');
 console.log(student);
 console.log(student.fname);
 
