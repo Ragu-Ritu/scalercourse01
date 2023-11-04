@@ -20,7 +20,18 @@
 
 // console.log(d);
 
-const student = {fname: 'Ragu', age: 25};
-console.log(student);
-student.fname = 'Ram';
-console.log(student);
+// const student = {fname: 'Ragu', age: 25};
+// // console.log(student);
+// // student.fname = 'Ram';
+// // console.log(student);
+
+// let a = (n) => {
+//     return n % 2 === 0;
+// }
+
+// let iseven = (b, num) => {
+//     let iseven1 = b(num);
+//     console.log(`The num ${num} is a even? ${iseven1}`);
+// }
+
+// iseven = (a, 10);
