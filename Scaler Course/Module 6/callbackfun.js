@@ -1,6 +1,6 @@
-//callback function
+// //callback function
 
-//example 1
+// //example 1
 function fname(firstname, cb){
     console.log(firstname);
     cb('RAM');
@@ -12,7 +12,7 @@ function lname(lastname){
     console.log(lastname);
 }
 
-//example 2
+// //example 2
 const isEven = (n) => {
     return n % 2 === 0;
 }
@@ -24,3 +24,4 @@ let result = (evenFn, num) => {
 }
 
 result(isEven, 15);
+
