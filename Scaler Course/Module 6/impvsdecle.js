@@ -10,7 +10,7 @@ if (asquared % 2 == 0){
 }
 
 
-//Declerative way of writing the code
+// //Declerative way of writing the code
 
-const asquared1 = (b) => (b*b & 2 == 0 ? true : false); 
-console.log(asquared1(5));
+const asquared1 = (b) => (b*b % 2 === 0 ? true : false); 
+console.log(asquared1(1001));
