@@ -18,11 +18,22 @@ console.log(b);
 
 // using reduce and normal function method
 
-let a1 = [1, 2, 3, 4, 5];
+const transcation5 = [1, 2, 3, 4, 5];
 
-let result = a1.reduce(function(accumulator, value){
-    let sum1 = accumulator+value;
-    return sum1;
+let result = transcation5.reduce(function(n, q){
+    let result = n+q;
+    return result;
 } , 0)
 
-console.log('The sum of an array using the normal function method is: ' + sum1);
+console.log('reduce method using normal function example 2: ' + result);
+
+// using reduce and arrow function method
+
+const transcation6 = [1, 2, 3, 4, 5];
+
+let result1 = transcation5.reduce(function(n, q){
+    let result1 = n+q;
+    return result1;
+} , 0)
+
+console.log('reduce method using arrow function example 3: ' + result1);
